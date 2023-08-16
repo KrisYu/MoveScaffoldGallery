@@ -333,14 +333,44 @@ kbd {
 
 <h1 id="toc_0">Examples in 3D</h1>
 
-<p>Use mouse to rotate and view the model in 3D.</p>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
-<ul>
-<li><a href="shoe_glb.html">shoe</a><br></li>
-<li><a href="truck_glb.html">truck</a></li>
-<li><a href="chair_glb.html">chair</a></li>
-<li><a href="bowl_glb.html">bowl</a></li>
-</ul>
+<style>
+model-viewer {
+  width: 600px;
+  height: 450px;
+}
+</style>
+
+<p>Click the link on to view the design varations of the model in 3D. Use mouse to rotate and scale the model.</p>
+
+<table>
+<thead>
+<tr>
+<th>Design Varation</th>
+<th>Object</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><a href="shoe_glb.html">shoe</a></td>
+<td><model-viewer camera-controls touch-action="pan-y" src="models/shoe_glb/shoe_a.glb" ar alt="A 3D transparency test" style="background-color: unset;"></model-viewer></td>
+</tr>
+<tr>
+<td><a href="truck_glb.html">truck</a></td>
+<td><model-viewer camera-controls touch-action="pan-y" src="models/truck_glb/truck_a.glb" ar alt="A 3D transparency test" style="background-color: unset;"></model-viewer></td>
+</tr>
+<tr>
+<td><a href="chair_glb.html">chair</a></td>
+<td><model-viewer camera-controls touch-action="pan-y" src="models/chair_glb/chair_a.glb" ar alt="A 3D transparency test" style="background-color: unset;"></model-viewer></td>
+</tr>
+<tr>
+<td><a href="bowl_glb.html">bowl</a></td>
+<td><model-viewer camera-controls touch-action="pan-y" src="models/bowl_glb/bowl_a.glb" ar alt="A 3D transparency test" style="background-color: unset;"></model-viewer></td>
+</tr>
+</tbody>
+</table>
 
 
 
