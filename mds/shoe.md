@@ -10,12 +10,12 @@ model-viewer {
 }
 </style>
 
-## input model
+## template
 
 <model-viewer camera-controls touch-action="pan-y" src="models/shoe/shoe_a.gltf" ar alt="A 3D transparency test" style="background-color: unset;"></model-viewer>
 
 
-## design varations 
+## variations 
 
 
 design varations  | 

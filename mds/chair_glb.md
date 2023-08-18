@@ -1,4 +1,4 @@
-# chair example
+# chair
 
 
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
@@ -10,15 +10,14 @@ model-viewer {
 }
 </style>
 
-## input model
+## template
 
 <model-viewer camera-controls touch-action="pan-y" src="models/chair_glb/chair_a.glb" ar alt="A 3D transparency test" style="background-color: unset;"></model-viewer>
 
 
-## design varations 
+## variations
 
-
-design varations  | 
+header |
 ------------- |
 <model-viewer camera-controls touch-action="pan-y" src="models/chair_glb/chair_b.glb" ar alt="A 3D transparency test" style="background-color: unset;"></model-viewer> | 
 <model-viewer camera-controls touch-action="pan-y" src="models/chair_glb/chair_c.glb" ar alt="A 3D transparency test" style="background-color: unset;"></model-viewer> | 

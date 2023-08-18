@@ -161,6 +161,13 @@ blockquote {
   blockquote > :last-child {
     margin-bottom: 0; }
 
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  
 table {
   padding: 0;border-collapse: collapse; }
   table tr {
@@ -331,7 +338,7 @@ kbd {
 
 <body>
 
-<h1 id="toc_0">truck example</h1>
+<h1 id="toc_0">truck</h1>
 
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
@@ -342,16 +349,16 @@ model-viewer {
 }
 </style>
 
-<h2 id="toc_1">input model</h2>
+<h2 id="toc_1">template</h2>
 
 <p><model-viewer camera-controls touch-action="pan-y" src="models/truck_glb/truck_a.glb" ar alt="A 3D transparency test" style="background-color: unset;"></model-viewer></p>
 
-<h2 id="toc_2">design varations</h2>
+<h2 id="toc_2">variations</h2>
 
 <table>
 <thead>
 <tr>
-<th>design varations</th>
+<th>header</th>
 </tr>
 </thead>
 
